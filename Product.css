@@ -1,0 +1,8 @@
+img.small{
+    height: 8rem;
+    width: 80%;
+    border-radius: 5px;
+  }
+  .cartBtn{
+    cursor: pointer;
+  }

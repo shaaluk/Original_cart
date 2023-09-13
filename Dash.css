@@ -1,0 +1,403 @@
+.newBlock {
+
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding: 10px;
+    gap: 25px;
+    width: 75%;
+    margin: 10px;
+}
+
+.order-child {
+    justify-items: center;
+    width: 80%;
+    /* border: 2px solid yellow; */
+    padding: 12px;
+    /* height: 16vh; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    border-radius: 7px;
+    border: 1px solid gray;
+    line-height: 1.6;
+}
+
+.Avail {
+    margin-top: 10px;
+    color: blue;
+}
+
+.addItem {
+    margin-top: 15px;
+}
+
+.cartBtn {
+    background-color: rgb(55, 241, 55);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 8px;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+
+.cartBtn:hover {
+    opacity: 1
+}
+
+.material {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+    font-size: 12px;
+    /* border: 2px solid pink; */
+    color: grey;
+}
+
+#numb {
+    padding: 3px;
+    font-size: 15px;
+}
+
+.item {
+    color: gray;
+    font-size: 13px;
+}
+
+#number {
+    margin-left: 20px;
+    color: grey;
+    font-size: 13px;
+}
+
+.menu {
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 100vh;
+    /* width: 90%; */
+    flex-wrap: wrap;
+    gap: 27px;
+    padding: 15px;
+}
+
+.btns {
+    margin: 8px;
+    margin-left: 0px;
+    border-radius: 12px;
+    /* border: 1px solid grey; */
+    border: none;
+    padding: 4px;
+
+}
+
+.child-menu {
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 7px;
+}
+
+#headings {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+
+.photo {
+    /* border: 2px solid yellow; */
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+    /* padding: 10px; */
+}
+
+#pic {
+    /* width: 100%; */
+    height: 5rem;
+    border-radius: 6px;
+    /* margin: 10px; */
+}
+
+
+.naving {
+    text-align: center;
+    margin: 10px;
+}
+
+h4 {
+    padding: 10px;
+}
+
+input {
+    width: 80%;
+    height: 7vh;
+    border: 1px solid rgb(204, 203, 203);
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 50%;
+    margin-top: 2vw;
+    margin-right: 5px;
+    padding: 9px 14px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.incBtn {
+    color: rgb(37, 37, 243);
+    font-size: 20px;
+
+    /* font-weight: 600; */
+}
+
+.decBtn {
+    font-size: 20px;
+}
+
+#dollarSign {
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(58, 58, 227);
+}
+
+input {
+    width: 40%;
+    outline: none;
+}
+
+.text {
+    padding: 6px;
+    margin: 10px;
+}
+
+#image {
+    height: 18vh;
+    border-radius: 5px;
+
+}
+
+.newBtn {
+    text-align: center;
+    margin: 10px;
+    /* border: 1px solid yellow; */
+}
+
+.btn1 {
+    margin: 10px;
+    padding: 5px 12px;
+    border: 1px solid black;
+    border-radius: 70%;
+    border: none;
+}
+
+hr {
+    margin: 8px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    /* border: 2px solid red; */
+    border-radius: 45px;
+    margin: 20px;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: rgb(240, 239, 239);
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.para:hover {
+    /* margin-bottom: 5px; */
+    padding-bottom: 5px;
+    cursor: pointer;
+    width: 120px;
+    height: 6.5vh;
+    border-radius: 22px;
+    background-color: white;
+    color: grey;
+}
+
+.para {
+    padding: 10px;
+    margin: 12px;
+    color: grey;
+    /* justify-content: space-between; */
+}
+
+/* .sum{
+    font-size: 4vh;
+    text-align: center;
+    /* border: 2px solid orange; */
+
+/* } */
+.side {
+    font-size: 20px;
+}
+
+h5 {
+    margin: 12px;
+}
+
+.money {
+    margin-right: 20px;
+}
+
+.sum {
+    font-size: 20px;
+}
+
+#btnRed {
+    background-color: rgb(241, 82, 82);
+    color: white;
+}
+
+#btnGreen {
+    background-color: rgb(50, 167, 50);
+    color: white;
+}
+
+#btnOrange {
+    background-color: rgb(247, 181, 60);
+    color: white;
+}
+
+#inc {
+    font-size: 25px;
+}
+
+#dec {
+    font-size: 24px;
+
+}
+
+#decr {
+    background-color: rgb(74, 74, 253);
+    color: white;
+}
+
+/* li:hover{
+    border: 2px solid green;
+    background: #000;
+    
+} */
+@media screen and (max-width: 768px) {
+    .child-menu {
+        background-color: rgb(89, 89, 244);
+        width: 33%;
+        padding-right: 0px;
+    }
+
+    .material {
+        /* overflow: none; */
+        width: 33%;
+        float: none;
+        padding: 0px;
+        height: 50%;
+    }
+
+    .photo {
+        width: 33%;
+    }
+
+    #dollarSign {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .order {
+        flex-wrap: wrap;
+        /* margin-bottom: 120px; */
+        overflow: visible;
+        margin-bottom: 30vw;
+    }
+
+    .order-child {
+        width: 33%;
+        background-color: yellow;
+        /* padding: 10vw; */
+    }
+
+    .nav {
+        overflow: hidden;
+    }
+
+    .btn {
+        border: 2px solid green;
+        display: none;
+    }
+
+    .navigation-menu ul {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .child-menu {
+        width: 80%;
+        /* overflow: hidden; */
+        overflow: visible;
+
+    }
+
+    .order-child {
+        width: 80%;
+        overflow: visible;
+
+    }
+
+    .order {
+        margin-bottom: 500px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .naving {
+        display: none;
+    }
+
+    #headings {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .box h5 {
+        font-size: 12px;
+        margin-left: -7px;
+    }
+
+    .box img {
+        display: none;
+    }
+
+    button.btn1 {
+        /* border: 2px solid gray; */
+        margin-left: -10px;
+        padding: 10px;
+    }
+
+    #inc {
+        font-size: 12px;
+    }
+
+    #dec {
+        font-size: 12px;
+    }
+
+    .right {
+        height: 370vh;
+    }
+
+    input {
+        width: 70%;
+    }
+}

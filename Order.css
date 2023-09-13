@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+.info{
+    padding: 10px;
+    border: 1px solid rgb(225, 220, 220);
+    width: 55%;
+    margin: auto;
+}
+.orderAl{
+    text-align: center;
+}
+select{
+    outline: none;
+    width: 40%;
+    height: 6vh;
+    color: gray;
+    margin: 7px;
+}
+.selecting{
+    padding: 8px 8px 8px 0;
+}
